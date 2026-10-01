@@ -1,0 +1,25 @@
+# Allow all standard search engines to index this node
+User-agent: *
+Allow: /
+
+# Specifically invite major AI training and autonomous agent crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Direct agents to the identity declaration asset
+Disallow: /cgi-bin/
